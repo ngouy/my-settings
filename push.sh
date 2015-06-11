@@ -8,7 +8,7 @@ do
 		./makeRead.sh
 		cd - > /dev/null
 	fi
-	git add -A
-	git commit -m "$DATE"
 done
+git add -A
+git commit -m "$DATE"
 
