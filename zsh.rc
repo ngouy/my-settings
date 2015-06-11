@@ -34,7 +34,7 @@ mkcd () {
 
 #create new class cpp
 cncpp () {
-	/bin/bash ~/scriptscmds/newclasscpp/cncpp.sh "$1"
+	/bin/bash ~/zshrc-and-scripts/newclasscpp/cncpp.sh "$1"
 }
 
 yolo () {
