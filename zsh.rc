@@ -36,3 +36,7 @@ mkcd () {
 cncpp () {
 	/bin/bash ~/scriptscmds/newclasscpp/cncpp.sh "$1"
 }
+
+yolo () {
+	echo "bonjour"
+}
