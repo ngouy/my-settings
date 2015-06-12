@@ -9,8 +9,8 @@ $cat Foo.class.hpp
 // ************************************************************************** //
 //                                                                            //
 //                   Foo.class.hpp for newclasscpp                            //
-//                   created on Jun Thu 11 18:31 2015                         //
-//                   Made by : ngouy  <ngouy@student.42.fr>                   //
+//                   created on juin ven. 12 03:06 2015                       //
+//                   Made by : nathan  <>                                     //
 //                                                                            //
 // ************************************************************************** //
 
@@ -35,8 +35,8 @@ $cat Foo.class.cpp
 // ************************************************************************** //
 //                                                                            //
 //                   Foo.class.cpp for newclasscpp                            //
-//                   created on Jun Thu 11 18:31 2015                         //
-//                   Made by : ngouy  <ngouy@student.42.fr>                   //
+//                   created on juin ven. 12 03:06 2015                       //
+//                   Made by : nathan  <>                                     //
 //                                                                            //
 // ************************************************************************** //
 

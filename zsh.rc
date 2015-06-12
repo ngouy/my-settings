@@ -1,31 +1,4 @@
-PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:$HOME/.brew/bin
-HISTFILE=~/.zshrc_history
-SAVEHIST=5000
-HISTSIZE=5000
-
-setopt inc_append_history
-setopt share_history
-
-if [[ -f ~/.myzshrc ]]; then
-  source ~/.myzshrc
-fi
-
-alias mysql="~/mamp/mysql/bin/mysql"
-alias pphp="/usr/bin/php"
-USER=`/usr/bin/whoami`
-export USER
-GROUP=`/usr/bin/id -gn $user`
-export GROUP
-MAIL="$USER@student.42.fr"
-export MAIL
-
-#docker exports
-export DOCKER_HOST=tcp://192.168.59.103:2376
-export DOCKER_CERT_PATH=/nfs/zfs-student-5/users/2014/ngouy/.boot2docker/certs/boot2docker-vm
-export DOCKER_TLS_VERIFY=1
-
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-
+#custom ngouy
 #make + cd 
 mkcd () {
 	mkdir -p "$*"
@@ -37,6 +10,11 @@ cncpp () {
 	/bin/bash ~/zshrc-and-scripts/newclasscpp/cncpp.sh "$1"
 }
 
-yolo () {
-	echo "bonjour"
+#create a dir with n ex subdir
+npj () {
+	/bin/bash ~/zshrc-and-scripts/npj/npj.sh
 }
+
+#yolo
+#test
+#end custom ngouy
